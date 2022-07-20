@@ -31,7 +31,7 @@ function Navbar(){
     return(
         <Menu className="relative">
         <div className="relative">
-          <nav className="w-full bg-black">
+          <nav className="w-full bg-transparent">
             <div className="w-full flex items-center justify-between px-[65px] pt-[30px]">
                 <div>
                     <Link href="/">
