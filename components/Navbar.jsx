@@ -32,7 +32,7 @@ function Navbar(){
         <Menu className="relative">
         <div className="relative">
           <nav className="w-full bg-transparent">
-            <div className="w-full flex items-center justify-between px-[65px] pt-[30px]">
+            <div className="fixed top-0 z-[99] w-full flex items-center justify-between px-[65px] pt-[30px]">
                 <div>
                     <Link href="/">
                         <a className="cursor-pointer">

@@ -40,7 +40,7 @@ function Footer(){
         }
     ]
     return(
-        <div className="w-full bg-[#1E1E1E] absolute bottom-0 px-[70px] pt-[69px] pb-[84px] text-[#FFFEFB] flex justify-between">
+        <div className="w-full bg-[#1E1E1E] relative bottom-0 px-[70px] pt-[69px] pb-[84px] text-[#FFFEFB] flex justify-between">
             <div>
                 <div>
                     <Image src={Logo} alt="logo" />
