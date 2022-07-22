@@ -10,22 +10,27 @@ function Navbar(){
         {
             id: 1,
             title: "Why RockTech",
+            url: "/why-rocktech",
         },
         {
             id: 2,
-            title: "Product"
+            title: "Product",
+            url: "/why-rocktech",
         },
         {
             id: 3,
-            title: "Sustainability"
+            title: "Sustainability",
+            url: "/why-rocktech",
         },
         {
             id: 4,
-            title: "Investors"
+            title: "Investors",
+            url: "/why-rocktech",
         },
         {
             id: 5,
-            title: "Career"
+            title: "Career",
+            url: "/why-rocktech",
         },
     ]
     return(
@@ -46,7 +51,7 @@ function Navbar(){
                   <div className="flex gap-10">
                     {links?.map((item) => (
                       <div key={item.id}>
-                        <Link href="">
+                        <Link href={item.url}>
                           <a>
                             <TextSmall text={item.title} className="uppercase" />
                           </a>
