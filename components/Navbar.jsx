@@ -15,22 +15,22 @@ function Navbar(){
         {
             id: 2,
             title: "Product",
-            url: "/why-rocktech",
+            url: "/",
         },
         {
             id: 3,
             title: "Sustainability",
-            url: "/why-rocktech",
+            url: "/",
         },
         {
             id: 4,
             title: "Investors",
-            url: "/why-rocktech",
+            url: "/",
         },
         {
             id: 5,
             title: "Career",
-            url: "/why-rocktech",
+            url: "/",
         },
     ]
     return(
